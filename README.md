@@ -1,6 +1,7 @@
 ## About
 
-A simple cmake template to make use of [vcpkg](https://learn.microsoft.com/en-us/vcpkg/) in a project. [libunifex](https://github.com/facebookexperimental/libunifex) is chosen to show how to use [vcpkg](https://learn.microsoft.com/en-us/vcpkg/) in a cmake project.
+* A simple cmake project to show how to use [vcpkg](https://learn.microsoft.com/en-us/vcpkg/).
+* [libunifex](https://github.com/facebookexperimental/libunifex) and [{fmt}](https://github.com/fmtlib/fmt) are used inside the project.
 
 ## Requirements
 - [CMake](https://cmake.org/) 3.30+
