@@ -9,7 +9,7 @@ A simple template to make use of vcpkg in a project. [libunifex](https://github.
 # How to build
 ```bash
 cmake -S . -B build --preset=default
-cmake --build build -j
+cmake --build build
 ```
 
 # How to run the program
