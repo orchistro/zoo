@@ -18,3 +18,10 @@ cmake --build build
 ```bash
 ./build/zoo
 ```
+
+## Notes
+The reason for using a few variables in `CMakePresets.json`:
+```cmake
+"CMAKE_EXPORT_COMPILE_COMMANDS": "ON", <-- to use LSP
+"CMAKE_CXX_SCAN_FOR_MODULES": "OFF" <-- to dodge clangd's module related errors
+```
