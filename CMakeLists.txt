@@ -16,13 +16,16 @@ set(CMAKE_TOOLCHAIN_FILE
 project(a.out LANGUAGES CXX)
 
 find_package(unifex CONFIG REQUIRED)
+find_package(fmt CONFIG REQUIRED)
 
 add_executable(a.out
     src/main.cpp)
 
 target_link_libraries(a.out
     PRIVATE
-        unifex::unifex)
+        unifex::unifex
+        fmt::fmt
+)
 
 target_compile_features(a.out PRIVATE cxx_std_23)
 
